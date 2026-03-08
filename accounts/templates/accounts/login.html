@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load forms_tags %}
+{% block title %}Login{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        
+        <div class="card shadow">
+            <div class="card-header bg-primary text-center text-white">
+                <h4>Login</h4>
+            </div>
+
+            <div class="card-body">
+
+                {% if from.errors %}
+                <div class="alert alert-danger">
+                    {{ from.non_field_errors }}
+                </div>
+                {% endif %}
+
+                <form method="post">
+                    {% csrf_token %}
+
+
+                    <div class="mb-3">
+                        <label>Username</label>
+                        {{ form.username|add_class:"form-control" }}
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Password</label>
+                        {{ form.password|add_class:"form-control" }}
+                    </div>
+                    
+                    <button class="btn btn-primary w-100">Login</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
