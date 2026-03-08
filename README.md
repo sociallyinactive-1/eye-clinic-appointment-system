@@ -45,3 +45,12 @@ This project is a Django-based web application developed for an Eye Clinic. It a
 1. Clone the repository:
    ```bash
    git clone https://github.com/sociallyinactive-1/eye-clinic-appointment-system.git
+
+   ## System Architecture
+
+The system is built using Django's Model-View-Template (MVT) architecture.
+
+- Models manage patient and appointment data
+- Views handle application logic
+- Templates render the user interface
+- SQLite is used as the project database
