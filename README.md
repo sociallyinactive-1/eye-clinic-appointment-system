@@ -54,3 +54,12 @@ The system is built using Django's Model-View-Template (MVT) architecture.
 - Views handle application logic
 - Templates render the user interface
 - SQLite is used as the project database
+
+
+## Authors
+
+- Thabo Ncube - R234092F
+- Tawanda Chinyuku - R237363X
+- Stanford T Munodawafa R2425049
+- Nigel Chisada - R234109B
+- Keen Makuvira - R235726C
