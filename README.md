@@ -4,13 +4,34 @@
 This project is a Django-based web application developed for an Eye Clinic. It allows users to register, log in, access a dashboard, and book appointments online. The system also includes an admin panel for managing clinic data and appointments.
 
 ## Features
+
+### Patient Features
 - User registration
 - User login and logout
-- Dashboard for authenticated users
-- Appointment booking
-- Admin panel for managing appointments
+- Secure user dashboard
+- Online appointment booking
+- View clinic blog posts
+
+### Doctor/Admin Features
+- Doctor dashboard
+- View patient appointments
+- Update appointment status (Pending, Confirmed, Completed, Cancelled)
+- Manage clinic information through Django admin panel
+
+## Project Pages
+
+- Home page
+- About page
+- Services page
+- Contact page
+- User Registration
+- User Login
+- User Dashboard
+- Book Appointment page
 - Blog pages
-- Static pages such as Home, About, Services, and Contact
+- Doctor Dashboard
+- Appointment Status Update page
+- Django Admin Panel
 
 ## Technologies Used
 - Python
